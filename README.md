@@ -16,7 +16,7 @@ The application is built using Python 3.6.
 
 You need to install the following libraries:
 
-cv2
+cv2  
 numpy
 
 ### Running the code

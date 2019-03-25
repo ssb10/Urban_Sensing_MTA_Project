@@ -22,10 +22,10 @@ numpy
 ### Running the code
 The code can be run using Jupyter Notebook as well as command line. On running the code a separate window will pop up showing the video and bounding boxes.
 
-1. Jupyter Notebook: 
+1. Jupyter Notebook:  
 You can download the jupyter notebook. You should see another window showing the video and the bounding boxes. The final count will be displayed after the video ends. 
 
-2. Command Line
+2. Command Line:  
 To run from command line. Download the MTA_counts.py file. run the code as follows:
 ```
 python MTA_count.py

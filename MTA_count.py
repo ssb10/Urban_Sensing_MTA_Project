@@ -49,7 +49,7 @@ while cap.isOpened():
         #print("Count: {}".format(count))
         break
     
-    _, contours0, hierarchy = cv2.findContours(image_mask,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE) # finding contours
+    contours0, hierarchy = cv2.findContours(image_mask,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE) # finding contours
     
     for cnt in contours0:
         #cv2.drawContours(frame, cnt, -1, (0,255,0), 3, 8)

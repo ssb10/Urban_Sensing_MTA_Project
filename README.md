@@ -16,8 +16,8 @@ The application is built using Python 3.6.
 
 You need to install the following libraries:
 
-cv2  
-numpy
+[cv2](https://pypi.org/project/opencv-python/)  
+[numpy](https://scipy.org/install.html)
 
 ### Running the code
 The code can be run using Jupyter Notebook as well as command line. On running the code a separate window will pop up showing the video and bounding boxes.
